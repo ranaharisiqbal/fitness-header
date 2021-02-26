@@ -1,0 +1,57 @@
+body{
+    overflow-x: hidden;
+}
+.nav-brand span{
+    color: green;
+}
+.nav-brand{
+    color: white;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+#picture{
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+    padding: 155px 230px 0px 230px;
+}
+@media (max-width:1000px)
+{
+    #picture{
+        padding: 50px 120px;
+    }
+}
+@media (max-width:800px)
+{
+    #picture{
+        padding: 50px 90px;
+    }
+}
+@media (max-width:600px)
+{
+    #picture{
+        padding: 50px 0px;
+    }
+}
+ video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+#bb{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+
+
